@@ -17,21 +17,22 @@ int main()
 void count(int arr[100],int n)
 {
     int i,j;
+    printf("the unique elements are:");
     for(i=0;i<n;i++)
     {
+        int c=0;
         for(j=0;j<n;j++)
         {
             if(i!=j)
             {
                 if(arr[i]==arr[j])
-                    break;
-            }        
+                    c+=1;
+            }
         }
-        if (i == j) 
+        if(c==0)
         {
-            printf("%d ", arr[i]);
+            printf("%d ",arr[i]);
         }
-    printf("\n");
     }
     
 }
