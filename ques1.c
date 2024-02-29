@@ -4,6 +4,7 @@ int main()
 {
     int arr[100];
     int a;
+    printf("\t**********INPUT**********\n\n");
     printf("enter the limit of elements in the array\n");
     scanf("%d",&a);
     for(int i=0;i<a;i++)
@@ -17,6 +18,7 @@ int main()
 void count(int arr[100],int n)
 {
     int i,j;
+    printf("\n\t**********OUPUT**********\n\n");
     printf("the unique elements are:");
     for(i=0;i<n;i++)
     {
