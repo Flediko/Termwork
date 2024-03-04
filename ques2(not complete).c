@@ -17,23 +17,27 @@ int main()
 void evenodd(int arr[100],int n)
 {
     int arr1[100],arr2[100];
-    int c=0,j;
+    int c=0,j=0;
     for(int i=0;i<n;i++)
     {
         if(arr[i]%2==0)
         {
             arr1[c]=arr[i];
-            arr[i]=arr[i+1];
             c++;
+        }
+        else if(arr[i]%2!=0)
+        {
+            arr2[j]=arr[i];
+            j++;
         }
     }
     printf("odd array ");
-    for(int i=0;i<n-c;i++)
+    for(int i=0;i<j;i++)
     {
-        printf("%d  ",arr[i]);    
+        printf("%d  ",arr2[i]);    
     }
     printf("\neven array  ");
-    for(int i=0;arr1[i]!=0;i++)
+    for(int i=0;i<c;i++)
     {
         printf("%d  ",arr1[i]);
     }
