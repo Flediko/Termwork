@@ -3,6 +3,7 @@ int findmaxinrow(int ar[][100], int r,int c);
 int main()
 {
     int a[100][100],r,c,i,j;
+     printf("\n\t**********INPUT**********\n\n");
     printf ("Enter number of rows and columns\n");
     scanf("%d%d",&r,&c);
     printf("Enter elements\n");
@@ -13,6 +14,7 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
+     printf("\n\t**********OUPUT**********\n\n");
     printf("Entered matrix is\n");
     for(i=0;i<r;i++)
     {
