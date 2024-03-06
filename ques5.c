@@ -4,6 +4,7 @@ void splitstring(char[]);
 void main()
 {
     char str1[100];
+     printf("\n\t**********INPUT**********\n\n");
     printf("Enter a string\n");
     fgets(str1,sizeof(str1),stdin);
     splitstring(str1);
@@ -20,6 +21,7 @@ void splitstring(char str1[])
             str1[i]='\n';
         }
     }
+     printf("\n\t**********OUPUT**********\n\n");
     printf("Modified string\n");
     puts(str1);
 }
