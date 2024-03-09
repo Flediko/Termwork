@@ -4,9 +4,11 @@ void alpha(char []);
 int main()
 {
     char str[100];
+    printf("\t**********INPUT**********\n\n");
     printf("enter the string\n");
     fgets(str,100,stdin);
     alpha(str);
+    printf("\t**********OUTPUT**********\n\n");
     puts(str);
     return 0;
 }
