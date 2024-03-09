@@ -36,6 +36,7 @@ int findmaxinrow(int a[][100],int r,int c)
     max=a[0][0];
     for(i=0;i<r;i++)
     {
+        max=a[i][0]
         for(j=0;j<c;j++)
         {
             if(a[i][j]>max)
