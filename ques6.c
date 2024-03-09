@@ -5,6 +5,7 @@ int main()
 {
   char str[100];
   printf("\t**********INPUT**********\n\n");
+  printf("enter the string");
   fgets(str,100,stdin);
   freq(str);
   return 0;
