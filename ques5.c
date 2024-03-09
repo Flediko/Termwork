@@ -14,7 +14,7 @@ void splitstring(char str1[])
 {
     int len1,i;
     len1=strlen(str1);
-    for(i=0;i<len1-1;i++)
+    for(i=0;i<len1;i++)
     {
         if(str1[i]==' ')
         {
