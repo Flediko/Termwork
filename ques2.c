@@ -3,6 +3,7 @@ void evenodd(int [100],int);
 int main()
 {
     int arr1[100];
+    printf("\t**********INPUT**********\n\n");
     printf("enter the limit of the array");
     int s;
     scanf("%d",&s);
@@ -31,6 +32,7 @@ void evenodd(int arr[100],int n)
             j++;
         }
     }
+    printf("\t**********INPUT**********\n\n");
     printf("odd array ");
     for(int i=0;i<j;i++)
     {
